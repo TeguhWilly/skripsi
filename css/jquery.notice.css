@@ -1,0 +1,36 @@
+.notice-wrap {
+	position: fixed;
+	top: 50%;
+	left:50%;
+//	right: 20px;
+//	width: 250px;
+	z-index: 9999;
+}
+
+* html .notice-wrap {
+	position: absolute;		
+}
+ 
+.notice-item {
+//	height: 60px;
+	background: #E6F185;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 6px;
+	font-family: lucida Grande;
+	font-size: 12px;
+	border: 2px solid #999;
+	display: block;
+	position: relative;
+	margin: 0 0 12px 0;
+}
+
+.notice-item-close {
+	position: absolute;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	right: 1px;
+	top: 0px;
+	cursor: pointer;
+}

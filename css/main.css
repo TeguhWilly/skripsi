@@ -1,0 +1,271 @@
+/*
+      Created by Keith Donegan of Code-Sucks.com
+	  
+	  E-Mail: Keithdonegan@gmail.com
+	  
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+	  
+*/
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ background:url('../images/love.jpg') ;
+  color:#245D0A;
+// background:#D0F6D0;
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 75%;
+}
+#faux {
+// background: #B6FBA9;
+ background: #FFFFFF;
+ margin-bottom: 0px;
+ overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+// height:500px;
+ width: 100%;
+}
+#header {
+	color: #CCCCCC;
+
+
+ //width: 902px;
+	padding: 10px;
+	height: 80px;
+	margin: 1px 0px 0px 0px;
+	background: #766DED; /* Old browsers */
+
+
+// background:#766DED url('../images/head.jpg') right no-repeat;
+}
+#header > div{
+position:absolute;
+}
+#navigation {
+ color: #333;
+ //padding: 10px;
+ margin: 0px 0px 0px 0px;
+ background: #FFFFFF;
+ border-bottom:3px solid #766DED;
+// border-radius:4px;
+}
+#leftcolumn { 
+border:1px solid #766DED;
+border-radius:4px;
+ display: inline;
+ color: #333;
+ margin: 2px;
+ padding: 5px;
+ width: 18%;
+ float: left;
+ min-height:490px;
+ background:url('../images/radio-al-iman.png') bottom right no-repeat;
+ 
+ }
+#rightcolumn { 
+border:1px solid #766DED;
+border-radius:4px;
+ float: right;
+ color: #00023f;
+ margin:2px 0px ;
+ padding-top: 2px;
+ width: 80%;
+ display: inline;
+ position: relative;
+ min-height:500px;
+ background:#FFFFFF url('../images/radio-al-iman.png') right bottom no-repeat;
+// #B6FBA9
+}
+#footer { 
+// width: 902px;
+ clear: both;
+ color: #333;
+ border-top:2px solid #766DED;
+ border-bottom:1px solid #766DED;
+ border-bottom-left-radius:3px;
+ border-bottom-right-radius:3px;
+ background:#fff url("../images/kj.png") center left no-repeat;
+// background: #8BF299;
+ margin: 0px 0px 10px 0px;
+ font-size:70%;
+ width: 98%;
+ //padding: 10px;
+}
+#footer:hover{
+	color:#CCCCCC;
+	background:#D9E6FA url("../images/kj.png") center left no-repeat;
+}
+.clear { clear: both; background: none; }
+
+table.data{
+	padding: 0.3em;
+	border-collapse:collapse;
+	width:98%;
+	text-align :center;
+	margin-left:auto;
+	margin-right:auto;
+	}
+table.data tr{
+	padding: 0.4em;
+	border: 1px solid #766DED;
+	background-color:#FFFFFF;	
+}	
+table.data tr:hover{
+	background-color:#FDFCFA;	
+	}
+table.data td{
+//	border: 1px solid gray;
+	padding:0.2em;
+	}
+table.data th{
+	text-transform:uppercase;
+	text-align :center;
+	font-size: 85%;
+	padding:0.6em;
+	background-color:#FDFCFA;	
+}
+caption{
+	font-size:120%;
+	padding:4px;
+	margin:4px;
+	font-style:oblique;
+	font-weight:bolder;
+	}	
+#tempat_soal,.tempat_soal{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border:1px solid #766DED;
+	border-radius:2px;
+	width:98%;
+	}	
+.tempat_soal{
+	background-color: #766DED;
+}	
+.isi_soal,.kunci_jawaban,.jawaban{
+	background-color: #fff;
+//	min-height:50px;
+	}
+.kata_terpilih{
+	margin:2px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:2px;
+	padding-right:1px;
+	border:1px solid #766DED;
+	border-radius:2px;
+	background-color:#fff;
+	font-style:oblique;
+	font-weight:bold;
+	}
+.div_soal{
+	margin:2px;
+	border-bottom:1px solid #766DED;
+	background: #FFFFF4;
+	}	
+div.div_soal>div{
+	padding:4px;
+	margin:2px;
+	margin-bottom:3px;
+	border-bottom:1px solid #766DED;
+	}
+.judul_soal{
+//	background:;
+	font-style:oblique;
+	text-transform:uppercase;
+	background:#766DED url('../images/kj.png') left no-repeat;
+	color:#fff;
+	}	
+select,input,button{
+	background-color:#fff;
+	color:blue;
+	border:1px green solid;
+	font-style:oblique;
+	font-weight:bold;
+	padding:1px;
+	margin-left:1px;
+	}	
+.info{
+	position:absolute;
+	top:50%;
+	left:45%;
+}
+.peringatan{
+	border:1px solid red;
+	padding:5px;
+	margin-left:10px;
+	color:green;
+	background:#fff;
+	text-decoration:blink;
+	font-size:1.2em;
+	font-style:oblique;
+	font-weight:bolder;
+	display:none;
+}
+dl {
+	font:normal 12px/15px Arial;
+    position: relative;
+}
+dt {
+    clear: both;
+    float:left;
+    width: 100px;
+    padding: 4px 0 2px 0;
+    text-align: left;
+}
+dd {
+    float: left;
+    width: 100px;
+    margin: 0 0 8px 0;
+    padding-left: 6px;
+}
+/* style untuk paging */
+#paging{
+	padding:2px;
+	margin:2px;
+}
+#paging ul,#paging li{
+	float:left;
+	list-style:none;
+}
+#paging li{
+	padding:3px;
+	border:1px solid green;
+	margin:3px;
+	opacity:0.6;
+	background-color:#fff;
+}
+#paging li:hover{
+	opacity:1;
+	cursor:pointer;
+}
+li.terpilih{
+	opacity:1;
+	background-color:blue;
+}
+div.loading{
+	color:#20520D;
+	background:#F1F2C3 url("../images/loading.gif") center left no-repeat;
+	padding-left:20px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:15%;
+//	text-align:center;
+	width:150px;
+	border:1px solid gray;
+	}
+.item{
+	background:url("../images/lw.png") left no-repeat;
+	padding-left:20px;
+	font-style:oblique;
+}
+.item:hover{
+	padding-left:30px;
+	background:#fff url("../images/lw.png") left no-repeat;
+	color:green;
+}

@@ -1,0 +1,113 @@
+div{
+padding:3px;
+margin:2px;
+}
+input, select{
+border:2px solid gray;
+font-style: italic;
+margin-left: 2px;
+	}
+table.dataSiswa{
+padding:0.2em;
+margin-right:1em;
+width:90%;
+}
+table.dNilai{
+	padding: 0.3em;
+	border-collapse:collapse;
+	//width:95%;
+	text-align :center;
+	}
+table.dNilai tr{
+	padding: 0.4em;
+}	
+table.dNilai td{
+	border: 1px solid gray;
+	padding:0.2em;
+	}
+table.dNilai td.rataKiri{
+text-align:left;
+}	
+table.dNilai th,table.tabelSeleksi th{
+	border:1px solid green;
+//	font-size: 85%;
+	padding:0.6em;
+	margin:2px;
+	height:20px;
+	background-color:#ccffff;	
+}				
+table.dNilai input{
+	border:none;	
+	text-align : center;
+	width:50px;	
+	}
+table.tabelSeleksi{
+	border-collapse:collapse;
+	width:98%;
+	text-align :center;
+}
+table.tabelSeleksi td{
+margin:3px;
+padding-top:4px;
+border:1px solid gray;
+}
+table.tabelSeleksi tr:hover{
+	background-color:#eeaa11;	
+}
+.rataKiri{
+text-align:left;
+}			
+.rata2{
+	background-color:#eeaa11;	
+}	
+caption {
+	font-size : 1.1em;
+	font-style:oblique;
+	}
+label.error {
+margin-left: 20px;
+color: red;
+font-size : 60%	
+	}
+span.success{
+background:#88ccaa;
+font-size:0.6em;
+}
+span.gagal{
+background:red;
+font-size:0.6em;
+}
+span.ket{
+margin:3px;
+font-size:0.6em;
+}
+div.info{
+position:absolute;
+margin-left:auto;
+margin-right:auto;
+background:#88ccaa;
+width:50%;
+top:5%;
+display:none;
+}
+.download {
+position:relative;
+text-decoration: none;
+left:1%;
+text-align: left;
+font-size: 9pt;
+
+}
+.download a{
+background-color: gray;
+color:white;
+border : 1px solid green;
+}
+	
+.notice-wrap {
+	position: fixed;
+	top: 20%;
+	left: 20%;
+	width: 250px;
+	z-index: 9999;
+}
